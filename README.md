@@ -1,22 +1,18 @@
-# 广州大学硕士学位论文 · LaTeX模板示例
+# 广州大学硕士学位论文模板
 
 在 **工程根目录**（与 **`main.tex` 同级**，例如本仓库的 `thesis_template/`）下执行编译；输出 **`main.pdf`** 与主文件同目录。
 
 <a id="md-toc"></a>
 ## 目录
 
-- [广州大学硕士学位论文 · LaTeX模板示例](#广州大学硕士学位论文--latex模板示例)
+- [广州大学硕士学位论文模板](#广州大学硕士学位论文模板)
   - [目录](#目录)
   - [为何有本仓库](#为何有本仓库)
   - [1. 用法速览](#1-用法速览)
   - [2. 仓库结构](#2-仓库结构)
-    - [2.1 论文章节（`content/`）](#21-论文章节content)
-    - [2.2 其他路径](#22-其他路径)
-  - [3. 写作环境（macOS）](#3-写作环境macos)
+    - [2.1 论文章节](#21-论文章节)
+  - [3. 写作环境](#3-写作环境)
   - [4. 编译产物](#4-编译产物)
-    - [4.1 源与输出](#41-源与输出)
-    - [4.2 辅助与日志](#42-辅助与日志)
-    - [4.3 中间文件](#43-中间文件)
 
 
 ---
@@ -59,7 +55,7 @@
 ## 2. 仓库结构
 
 <a id="md-structure-content"></a>
-### 2.1 论文章节（`content/`）
+### 2.1 论文章节
 
 | 顺序 | 文件 | 说明 |
 |:--:|:--|:--|
@@ -77,21 +73,15 @@
 | 11 | `11-references.tex` | 参考文献章 |
 | 12 | `12-achievements.tex` | 攻读硕士期间科研成果 |
 | 13 | `13-acknowledgments.tex` | 致谢 |
-
-<a id="md-structure-extra"></a>
-### 2.2 其他路径
-
-| 路径 | 说明 |
-|:--|:--|
-| `main.tex` | 论文主文件 |
-| `bst/gbt7714-numerical-local.bst` | GB/T 7714 数字编码著录样式 |
-| `figures/` | 论文附件路径 |
-| `content/references.bib` | 参考文献文章引用列表｜
-| 首次引用顺序 | 数字型国标顺序；`**\begin{document}` 后的 `\nocite{…}`** 可微调参考文献表条目顺序（见 `main.tex` 注释） |
+|#|`main.tex` | 论文主文件 |
+|#|`bst/gbt7714-numerical-local.bst` | GB/T 7714 数字编码著录样式 |
+|#|`figures/` | 论文附件路径 |
+|#|`content/references.bib` | 参考文献文章引用列表｜
+|#|参考文献顺序 | `**\begin{document}` 后的 `\nocite{…}`可调整参考文献表条目顺序|
 
 
 <a id="md-env"></a>
-## 3. 写作环境（macOS）
+## 3. 写作环境
 
 | 项目 | 要求 |
 |:--|:--|
@@ -102,20 +92,10 @@
 <a id="md-main-artifacts"></a>
 ## 4. 编译产物
 
-
-<a id="md-artifacts-sources"></a>
-### 4.1 源与输出
-
 | 文件 | 说明 |
 |:--|:--|
 | `main.tex` | 主控文档，需版本管理 |
 | `main.pdf` | 交付与打印 |
-
-<a id="md-artifacts-aux"></a>
-### 4.2 辅助与日志
-
-| 文件 | 说明 |
-|:--|:--|
 | `main.aux` | 交叉引用、目录、`citation` 等；BibTeX 依赖 |
 | `main.bbl`、`main.blg` | BibTeX 输出与 BibTeX 日志 |
 | `main.log` | 完整编译日志，排错优先查看 |
@@ -123,10 +103,4 @@
 | `main.out` | PDF 书签（hyperref） |
 | `main.fls`、`main.fdb_latexmk` | latexmk 依赖追踪 |
 | `main.synctex.gz`（若有） | 源码与 PDF 正反向同步 |
-
-<a id="md-artifacts-xdv"></a>
-### 4.3 中间文件
-
-| 文件 | 说明 |
-|:--|:--|
 | `main.xdv` | XeTeX 驱动输出，`xdvipdfmx` 生成 PDF |
