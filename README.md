@@ -6,16 +6,13 @@
     <td align="center"><img src="images/1.png" width="160"/><br/>图片1</td>
     <td align="center"><img src="images/2.png" width="160"/><br/>图片2</td>
     <td align="center"><img src="images/3.png" width="160"/><br/>图片3</td>
+
+  </tr>
+  <tr>
     <td align="center"><img src="images/4.png" width="160"/><br/>图片4</td>
     <td align="center"><img src="images/5.png" width="160"/><br/>图片5</td>
-  </tr>
-  <!-- <tr>
     <td align="center"><img src="images/6.png" width="160"/><br/>图片6</td>
-    <td align="center"><img src="images/7.png" width="160"/><br/>图片7</td>
-    <td align="center"><img src="images/8.png" width="160"/><br/>图片8</td>
-    <td align="center"><img src="images/9.png" width="160"/><br/>图片9</td>
-    <td align="center"><img src="images/10.png" width="160"/><br/>图片10</td>
-  </tr> -->
+  </tr>
 </table>
 
 - [广州大学硕士学位论文模板](#广州大学硕士学位论文模板)
