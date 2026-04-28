@@ -4,6 +4,8 @@
 - 《广州大学研究生学位论文格式要求.docx》
 - 《广州大学硕士学位论文扉页.docx》
 
+完整示例论文可查看[论文示例](./main.pdf)
+
 <table>
   <tr>
     <td align="center"><img src="images/1.png" width="266"/><br/>图片1</td>
